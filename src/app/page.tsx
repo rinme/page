@@ -1,10 +1,5 @@
 "use client";
 import React from "react";
-import {
-  RevealCard,
-  RevealCardDescription,
-  RevealCardTitle,
-} from "../components/ui/reveal-card";
 import { MaskContainer } from "../components/ui/svg-mask";
 import { TextGenerateEffect } from "../components/ui/text-generate";
 
@@ -20,12 +15,12 @@ export default function Home() {
     <>
       <MaskContainer
         revealText={
-          <p className="max-w-4xl mx-auto grow text-slate-800 text-center text-4xl font-bold">
+          <div className="max-w-4xl mx-auto grow text-slate-800 text-center text-4xl font-bold">
             {randomWord(words)}
             <TextGenerateEffect words={revealFront} />
-          </p>
+          </div>
         }
-        className="h-[40rem] border rounded-md"
+        className=""
       >
         <span className="text-red-500">NOTHING</span> you are going to get from,
         else than my profile.
