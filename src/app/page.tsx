@@ -1,16 +1,11 @@
 "use client";
 import React from "react";
-import {
-  RevealCard,
-  RevealCardDescription,
-  RevealCardTitle,
-} from "../components/ui/reveal-card";
 import { MaskContainer } from "../components/ui/svg-mask";
 import { TextGenerateEffect } from "../components/ui/text-generate";
 
 const revealFront = `Welcome to my page, in here there is
 `;
-var words = ["Hello!", "Hi!", "おはよう!", "Hey!", "YOU THERE!"];
+const words = ["Hello!", "Hi!", "おはよう!", "Hey!", "YOU THERE!"];
 function randomWord(arr: string | any[]) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
