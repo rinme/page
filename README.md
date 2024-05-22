@@ -93,3 +93,15 @@ bun serve
 ```
 
 Then visit [http://localhost:8080/](http://localhost:8080/)
+
+## Static Site Generator (Node.js)
+
+```shell
+bun build.server
+```
+
+## Static Site Generator (Node.js)
+
+```shell
+bun build.server
+```
